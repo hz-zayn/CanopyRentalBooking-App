@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">CanopyMobile</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string-array name="payment_methods">
+        <item>Credit Card</item>
+        <item>Debit Card</item>
+        <item>Online Banking</item>
+    </string-array>
+
+</resources>

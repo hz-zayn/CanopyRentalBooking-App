@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "705052359393",
+    "project_id": "canopymobile-5c7a7",
+    "storage_bucket": "canopymobile-5c7a7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:705052359393:android:f004436fdf6754299555a0",
+        "android_client_info": {
+          "package_name": "com.example.canopymobile"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUwZRAcxIxEzMqFCN7vwz5aoOV8ZxFsH0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

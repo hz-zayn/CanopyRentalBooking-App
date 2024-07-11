@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="@drawable/bg2">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp"
+            android:background="@drawable/black_border">
+
+            <!-- Title TextView -->
+            <TextView
+                android:id="@+id/booking_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="Your Booking Details"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:paddingTop="16dp"
+                android:paddingBottom="16dp"
+                android:textAlignment="center" />
+
+            <!-- Booking Details TextView -->
+            <TextView
+                android:id="@+id/booking_details_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="Booking Details will be shown here"
+                android:textColor="@android:color/black" />
+
+            <!-- Confirmation Message TextView -->
+            <TextView
+                android:id="@+id/confirmation_message_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="Your booking has been confirmed"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:textAlignment="center"
+                android:paddingTop="16dp"
+                android:paddingBottom="16dp" />
+
+            <!-- Home Button -->
+            <Button
+                android:id="@+id/home_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Home"
+                android:textSize="18sp"
+                android:onClick="goToMainActivity"
+                android:layout_marginTop="16dp" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
